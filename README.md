@@ -2,29 +2,25 @@
 
 A comprehensive web application designed to help users plan safe and dry travel within the city during monsoon season. The app provides real-time road condition reporting, route planning with flood avoidance, and transport availability checking.
 
-## Features
 
-### 🛣️ Route Planning
+Route Planning
 - **Smart Route Planning**: Find optimal routes avoiding flooded and waterlogged areas
 - **Alternative Routes**: Get multiple route suggestions with safety scores
 - **Real-time Updates**: Routes are updated based on current road conditions
 
-### 📍 Crowd-sourced Reporting
+Crowd-sourced Reporting
 - **Road Condition Reports**: Users can report road conditions in real-time
 - **Verification System**: Community-driven verification of reports
 - **Location-based**: Reports are tied to specific coordinates for accuracy
 
-### 🚌 Transport Options
+ Transport Options
 - **Multi-modal Transport**: Check availability of buses, metro, auto-rickshaws, taxis, and bike taxis
 - **Real-time Status**: Live updates on transport availability and wait times
 - **Fare Information**: Estimated fares for different transport options
 
-### 🌧️ Weather Alerts
 - **Active Alerts**: Real-time weather alerts affecting travel
 - **Severity Levels**: Color-coded alerts based on severity
 - **Area-specific**: Alerts for specific areas of the city
-
-## Technology Stack
 
 ### Backend
 - **Django 4.2.7**: Python web framework
@@ -49,43 +45,29 @@ A comprehensive web application designed to help users plan safe and dry travel 
 ### Backend Setup
 
 1. **Install Python dependencies**:
-   ```bash
    pip install -r requirements.txt
-   ```
-
 2. **Run database migrations**:
-   ```bash
    python manage.py migrate
-   ```
 
 3. **Create a superuser** (optional):
-   ```bash
    python manage.py createsuperuser
-   ```
 
 4. **Start the Django server**:
-   ```bash
    python manage.py runserver
-   ```
 
 The backend will be available at `http://localhost:8000`
 
 ### Frontend Setup
 
 1. **Navigate to frontend directory**:
-   ```bash
    cd travel-assistant-frontend
-   ```
 
 2. **Install dependencies**:
-   ```bash
    npm install
-   ```
+ 
 
 3. **Start the development server**:
-   ```bash
    npm run dev
-   ```
 
 The frontend will be available at `http://localhost:3000`
 
@@ -108,8 +90,6 @@ The frontend will be available at `http://localhost:3000`
 ### Weather Alerts
 - `GET /api/weather-alerts/` - Get all weather alerts
 - `GET /api/weather-alerts/active/` - Get active weather alerts
-
-## Usage
 
 ### For Travelers
 1. **Plan Your Route**: Use the Route Planner to find safe paths avoiding flooded areas
@@ -147,4 +127,4 @@ For support and questions, please open an issue in the repository.
 
 ---
 
-**Stay Safe During Monsoon Season! 🌧️**
+**Stay Safe During Monsoon Season!**
